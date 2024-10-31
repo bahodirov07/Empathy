@@ -1,0 +1,102 @@
+.about{
+    background: #ede6dd;
+    /* position: relative; */
+}
+.about .container{
+    /* margin-top: 41dvh; */
+    padding-top: 80px;
+    padding-bottom:190px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media (max-width:1130px) {
+    .about .container{
+        justify-content: center;
+    }
+}
+.familiy{
+    margin-top: 73px;
+}
+.about_title{
+    font-weight: 400;
+    max-width:408px;
+    width: 100%;
+    font-size: clamp(32px, 5vw, 48px);
+    line-height: 121%;
+    color:var(--primary-color);
+}
+.about_txt{
+    font-weight: 400;
+    font-size: 16px;
+    line-height:140%;
+    /* line-height:187%; */
+    letter-spacing: 0.02em;
+    color:var(--secondry-color);
+    padding-top: 24px;
+    padding-bottom: 4px;
+}
+.about_text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    letter-spacing: 0.01em;
+    color: rgba(30, 25, 40, 0.8);
+    max-width:515px;
+    width: 100%;
+}
+.txt_title{
+    padding-top: 28px;
+    padding-bottom: 24px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 176%;
+    letter-spacing: 0.01em;
+    color: #1e1928;
+}
+.about_form{
+    border-radius: 9999px;
+    background: #fff;
+    padding: 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 448px;
+    width: 100%;
+    margin-bottom: 96px;
+}
+@media (max-width:1130px) {
+    .about_form{
+        margin-bottom: unset;
+    }
+}
+.form_input{
+    border-radius: 9999px;
+    padding: 10px 32px;
+    font-size: 14px;
+    line-height: 143%;
+    color: rgba(30, 25, 40, 0.5);
+    border: unset;
+}
+.form_button{
+    border-radius: 9999px;
+    background: var(--primary-color);
+    padding: 10px 32px;
+    font-size: 14px;
+    line-height: 143%; 
+    color: #fff;
+    border: unset;
+}
+@media (max-width:520px) {
+    .about_form{
+        justify-content: center;
+        border-radius:30px;
+    }
+    .form_input{
+        border-radius:30px;
+    }
+    .form_button{
+        border-radius:30px;
+    }
+}

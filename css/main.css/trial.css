@@ -1,0 +1,29 @@
+.trial{
+    background:var(--primary-color);
+    padding-top: 267px;
+    padding-bottom: 137px;
+    position: relative;
+     .container{
+        background:var(--primary-color);
+    }
+}
+.trial_txt{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 153%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #fff;
+}
+.trial_link{
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+.trial_text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 167%;
+    text-align: center;
+    color: #ede6dd;
+}
